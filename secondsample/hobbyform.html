@@ -17,26 +17,30 @@
         font-size: 17px;
         margin-top: 10px;
     }
+    td {
+
+
+    }
 </style>
-<div style="border: 10px solid powderblue; width: 500px">
+<div style="border: 10px solid powderblue; width: 800px">
     <form action="">
         <p class="hobby">SỞ THÍCH CỦA BẠN</p>
-        <label style="margin-right: 200px; text-decoration-color: midnightblue">Họ và tên <input type="text" name="yourname"></label><br> <br>
-        <label style="margin-right: 180px">Email <input type="text" name="email"></label><br> <br>
-        Sở thích
-        <table style="margin-left:100px>
+        <label style="margin-right: 200px; text-decoration-color: midnightblue">Họ và tên <input style="margin-left: 60px" type="text" name="yourname"></label><br> <br>
+        <label style="margin-right: 180px">Email <input style="margin-left: 60px" type="text" name="email"></label><br> <br>
+        <table style="margin-left:200px; text-align: left; width: 60%; ">
             <tr>
-                <td><label><input type="radio" name="hobby"></label> Thể thao</td>
-                <td><label><input type="radio" name="hobby"></label> Âm nhạc</td>
-                <td><label><input type="radio" name="hobby"></label> Đọc sách</td>
+                <td style="vertical-align: top" rowspan="3">Sở thích</td>
+                <td><label><input type="checkbox" name="hobby">Thể thao</label></td>
+                <td><label><input type="checkbox" name="hobby">Âm nhạc</label></td>
+                <td><label><input type="checkbox" name="hobby">Đọc sách</label></td>
             </tr>
             <tr>
-                <td><label><input type="radio" name="hobby"></label> Lướt web</td>
-                <td><label><input type="radio" name="hobby"></label> Chơi game</td>
-                <td><label><input type="radio" name="hobby"></label> Điện ảnh</td>
+                <td><label><input type="checkbox" name="hobby"></label>Lướt web </td>
+                <td><label><input type="checkbox" name="hobby"></label>Chơi game</td>
+                <td><label><input type="checkbox" name="hobby"></label>Điện ảnh </td>
             </tr>
             <tr>
-                <td><label><input type="radio" name="hobby"></label> Du lịch</td>
+                <td><label><input type="checkbox" name="hobby"></label>Du lịch </td>
             </tr>
         </table>
         <br>
