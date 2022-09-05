@@ -3,52 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Sở thích của bạn</title>
+    <style>
+        div {
+           border: 30px solid powderblue;
+            font-size: 30px;
+            width: 900px;
+
+        }
+        table {
+            border-collapse: collapse;
+
+        }
+        tr,td {
+            width: 200px;
+            height: 50px;
+
+        }
+        p {
+            background: orangered;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: 10px;
+
+        }
+    </style>
 </head>
 <body>
-<style>
-    form {
-        font-family: "Al Bayan";
-        text-align: center;
-    }
-    .hobby {
-        background: orangered;
-        padding: 5px;
-        color: white;
-        font-size: 17px;
-        margin-top: 10px;
-    }
-    td {
-
-
-    }
-</style>
-<div style="border: 10px solid powderblue; width: 800px">
+<div>
     <form action="">
-        <p class="hobby">SỞ THÍCH CỦA BẠN</p>
-        <label style="margin-right: 200px; text-decoration-color: midnightblue">Họ và tên <input style="margin-left: 60px" type="text" name="yourname"></label><br> <br>
-        <label style="margin-right: 180px">Email <input style="margin-left: 60px" type="text" name="email"></label><br> <br>
-        <table style="margin-left:200px; text-align: left; width: 60%; ">
+        <p>SỞ THÍCH CỦA BẠN</p>
+        <table>
             <tr>
-                <td style="vertical-align: top" rowspan="3">Sở thích</td>
-                <td><label><input type="checkbox" name="hobby">Thể thao</label></td>
-                <td><label><input type="checkbox" name="hobby">Âm nhạc</label></td>
-                <td><label><input type="checkbox" name="hobby">Đọc sách</label></td>
+                <td style="text-align: right; padding-right: 10px">Họ và tên</td>
+                <td colspan="3"><input style="padding: 10px 80px" type="text" name="name" ></td>
             </tr>
             <tr>
-                <td><label><input type="checkbox" name="hobby"></label>Lướt web </td>
-                <td><label><input type="checkbox" name="hobby"></label>Chơi game</td>
-                <td><label><input type="checkbox" name="hobby"></label>Điện ảnh </td>
+                <td style="text-align: right; padding-right: 10px">Email</td>
+                <td colspan="3"><input style="padding: 10px 80px" type="email" name="email"></td>
             </tr>
             <tr>
-                <td><label><input type="checkbox" name="hobby"></label>Du lịch </td>
+                <td style="vertical-align: top; text-align: right; padding-right: 10px" rowspan="3">Sở thích</td>
+                <td><input type="checkbox" name="hobby" value="sport">Thể thao</td>
+                <td><input type="checkbox" name="hobby" value="music">Âm nhạc</td>
+                <td><input type="checkbox" name="hobby" value="reading">Đọc sách</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="hobby" value="surf">Lướt web</td>
+                <td><input type="checkbox" name="hobby" value="playing">Chơi game</td>
+                <td><input type="checkbox" name="hobby" value="film">Điện ảnh</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="hobby" value="travel">Du lịch</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input style="padding: 7px 20px; font-size: 20px" type="submit" value="Gửi thông tin"></td>
+                <td><input style="padding: 7px 20px; font-size: 20px" type="reset" value="Nhập lại"></td>
             </tr>
         </table>
-        <br>
-        <input type="submit" value="Gửi thông tin">
-        <input style=margin-right:120px type="reset" value="Nhập lại">
     </form>
-    <br>
 </div>
-
 </body>
 </html>

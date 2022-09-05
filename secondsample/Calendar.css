@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid white;
+}
+.class2 td {
+    border:none !important;
+}
+td {
+    width: 70px;
+    height: 40px;
+    border: 1px solid grey;
+    text-align: center;
+}
+th {
+    width: 70px;
+    height: 40px;
+}
+h2 {
+    margin-left: 150px;
+    color: blue;
+}
