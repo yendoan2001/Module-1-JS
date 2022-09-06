@@ -6,20 +6,20 @@
 </head>
 <body>
 <form action="">
-    <input style="padding: 5px 30px; text-align: center; font-size: 15px" id="input1" type="text" name="firstnumber">
-    <input style="padding: 5px 30px;text-align: center; font-size: 15px" id="input2" type="text" name="secondnumber">
+    <input style="padding: 5px 30px; text-align: center; font-size: 15px" id="first_number" type="text" name="first_number" />
+    <input style="padding: 5px 30px;text-align: center; font-size: 15px" id="second_number" type="text" name="second_number">
     <p>
-    <button style="padding: 5px 20px; font-size: 15px" type="button" onclick="phepcong()">Addition(+)</button>
-    <button style="padding: 5px 20px; font-size: 15px" type="button" onclick="pheptru()">Subtraction(-)</button>
-    <button style="padding: 5px 20px; font-size: 15px" type="button" onclick="phepnhan()">Multiplication(x)</button>
-    <button style="padding: 5px 20px; font-size: 15px" type="button" onclick="phepchia()">Division(/)</button>
+    <button style="padding: 5px 20px; font-size: 15px" type="button" onclick="calculate('+')">Addition(+)</button>
+    <button style="padding: 5px 20px; font-size: 15px" type="button" onclick="calculate('-')">Subtraction(-)</button>
+    <button style="padding: 5px 20px; font-size: 15px" type="button" onclick="calculate('*')">Multiplication(x)</button>
+    <button style="padding: 5px 20px; font-size: 15px" type="button" onclick="calculate('/')">Division(/)</button>
     </p>
 
     <h3>Result:</h3>
     <p id="result"></p>
 </form>
 
-<script src="caculator.js">
+<script src="calculator.js">
 </script>
 </body>
 </html>

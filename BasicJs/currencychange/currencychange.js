@@ -1,21 +1,14 @@
-
 function convert() {
-    let a = document.getElementById("amount1").value;
-    let b = document.getElementById("select1").value;
-    let c = document.getElementById("select2").value;
-    let d;
+    const EXCHANGE_RATE = 23000;
+    let a = +document.getElementById("amount").value;
+    let b = document.getElementById("from").value;
+    let c = document.getElementById("to").value;
 
-    if (b === c) {
-        document.write("1")
-    }
-    if (b === "Vietnam" && c === "USD") {
-        d = a / 24000;
-       document.write(d)
-    }
-
-    if (b === "USD" && c === "Vietnam") {
-        d = a * 24000;
-        document.write(d)
+    if (b === c) document.write("1")
+    else if (b === "VND") {
+        document.write(a / EXCHANGE_RATE + '')
+    } else {
+        document.write(a * EXCHANGE_RATE + '')
     }
 }
 

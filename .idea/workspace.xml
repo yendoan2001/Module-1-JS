@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicJs/caculator/caculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/caculator/caculator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicJs/caculator/caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/BasicJs/caculator/caculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicJs/caculator/caculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/BasicJs/caculator/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.html" beforeDir="false" afterPath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.js" beforeDir="false" afterPath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/BasicJs/caculator/caculator.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicJs/caculator/calculator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/use_operator/use_operator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator2.js" root0="FORCE_HIGHLIGHTING" />
@@ -45,8 +47,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="format.on.save" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="optimize.imports.on.save" value="true" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="rearrange.code.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +74,9 @@
       <workItem from="1662223799848" duration="18194000" />
       <workItem from="1662339580457" duration="23671000" />
       <workItem from="1662428235724" duration="6869000" />
-      <workItem from="1662449882736" duration="10787000" />
+      <workItem from="1662449882736" duration="14237000" />
+      <workItem from="1662477630759" duration="589000" />
+      <workItem from="1662478247208" duration="453000" />
     </task>
     <servers />
   </component>
@@ -83,5 +94,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
