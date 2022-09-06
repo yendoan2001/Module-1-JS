@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/caculator/caculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/caculator/caculator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BasicJs/caculator/caculator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/use_operator/use_operator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator2.js" root0="FORCE_HIGHLIGHTING" />
@@ -64,7 +65,7 @@
       <workItem from="1662223799848" duration="18194000" />
       <workItem from="1662339580457" duration="23671000" />
       <workItem from="1662428235724" duration="6869000" />
-      <workItem from="1662449882736" duration="8617000" />
+      <workItem from="1662449882736" duration="10787000" />
     </task>
     <servers />
   </component>
