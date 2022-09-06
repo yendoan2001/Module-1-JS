@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicJs/embedJs/embedjs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/embedJs/embedjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Declar_use_variable/declar_variable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Declar_use_variable/declarvariable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/use_operator/use_operator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/use_operator/use_operator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BasicJs/use_operator/use_operator.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicJs/Declar_use_variable/declar_variable.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2DnEs37Huzx5v0iG3bILVPufI8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,7 +61,8 @@
       <workItem from="1662223704539" duration="89000" />
       <workItem from="1662223799848" duration="18194000" />
       <workItem from="1662339580457" duration="23671000" />
-      <workItem from="1662428235724" duration="4587000" />
+      <workItem from="1662428235724" duration="6869000" />
+      <workItem from="1662449882736" duration="1308000" />
     </task>
     <servers />
   </component>
