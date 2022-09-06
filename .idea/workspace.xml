@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicJs/outputdisplay/displaybyHTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/outputdisplay/displaybyalert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/outputdisplay/displaybyconsole.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/outputdisplay/displaybydocumentwrite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/embedJs/embedjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/embedJs/embedjs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +16,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -56,7 +55,7 @@
       <workItem from="1662223704539" duration="89000" />
       <workItem from="1662223799848" duration="18194000" />
       <workItem from="1662339580457" duration="23671000" />
-      <workItem from="1662428235724" duration="2114000" />
+      <workItem from="1662428235724" duration="4587000" />
     </task>
     <servers />
   </component>
