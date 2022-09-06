@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BasicJs/Declar_use_variable/declar_variable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/Declar_use_variable/declarvariable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/use_operator/use_operator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BasicJs/use_operator/use_operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Variable_operator/variable_operation3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator4.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -27,6 +30,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BasicJs/use_operator/use_operator.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator2.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operation3.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Declar_use_variable/declar_variable.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2DnEs37Huzx5v0iG3bILVPufI8l" />
@@ -62,7 +68,7 @@
       <workItem from="1662223799848" duration="18194000" />
       <workItem from="1662339580457" duration="23671000" />
       <workItem from="1662428235724" duration="6869000" />
-      <workItem from="1662449882736" duration="1308000" />
+      <workItem from="1662449882736" duration="3278000" />
     </task>
     <servers />
   </component>
