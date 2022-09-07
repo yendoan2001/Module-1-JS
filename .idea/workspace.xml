@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/conditional_sentences/practice_ternary_operator/lesson1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditional_sentences/practice_ternary_operator/lesson2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditional_sentences/Baitap/weight_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <workItem from="1662449882736" duration="14237000" />
       <workItem from="1662477630759" duration="589000" />
       <workItem from="1662478247208" duration="571000" />
-      <workItem from="1662485415235" duration="12515000" />
+      <workItem from="1662485415235" duration="13121000" />
     </task>
     <servers />
   </component>
@@ -113,6 +112,12 @@
           <line>7</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/conditional_sentences/practice_ternary_operator/lesson2.html</url>
+          <line>11</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
