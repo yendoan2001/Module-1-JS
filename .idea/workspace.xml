@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/conditional_sentences/leap_year/leap_year.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditional_sentences/leap_year/leap_year.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditional_sentences/practice_if_else/practice_if_else.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditional_sentences/practice_if_else/practice_if_else.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicJs/caculator/caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/BasicJs/caculator/caculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicJs/caculator/caculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/BasicJs/caculator/calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.html" beforeDir="false" afterPath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.js" beforeDir="false" afterPath="$PROJECT_DIR$/BasicJs/currencychange/currencychange.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,7 @@
     <setting file="file://$PROJECT_DIR$/BasicJs/use_operator/use_operator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator2.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/conditional_sentences/leap_year/leap_year.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operation3.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/currencychange/currencychange.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Declar_use_variable/declar_variable.js" root0="FORCE_HIGHLIGHTING" />
@@ -76,7 +77,8 @@
       <workItem from="1662428235724" duration="6869000" />
       <workItem from="1662449882736" duration="14237000" />
       <workItem from="1662477630759" duration="589000" />
-      <workItem from="1662478247208" duration="453000" />
+      <workItem from="1662478247208" duration="571000" />
+      <workItem from="1662485415235" duration="1949000" />
     </task>
     <servers />
   </component>
