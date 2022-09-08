@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng kí tài khoản</title>
+    <style>
+        table {
+            border: 1px solid grey;
+            margin-left: 40px;
+            padding: 20px;
+            width: 100px;
+        }
+        tr,td {
+            font-size: 30px;
+            color: dimgray;
+        }
+        input {
+            width: 500px;
+            height: 30px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+<form id="form" action="#" method="post" onsubmit="returncheck()">
+    <table>
+        <tr>
+            <td style="text-align: center;background: cornflowerblue; color: white; padding: 10px">Đăng ký tài khoản</td>
+        </tr>
+        <tr>
+            <td>Tên</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="inputName"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+        </tr>
+        <tr>
+            <td><input type="email" name="inputEmail"></td>
+        </tr>
+        <tr>
+            <td>Mật khẩu</td>
+        </tr>
+        <tr>
+            <td><input id="inputPassword" type="password" name="inputPassword"></td>
+        </tr>
+        <tr>
+            <td>Xác nhận mật khẩu</td>
+        </tr>
+        <tr>
+            <td><input id="checkPassword" type="password" name="checkPassword"></td>
+        </tr>
+        <tr>
+            <td>Số điện thoại</td>
+        </tr>
+        <tr>
+            <td><input id="inputPhoneNumber" type="tel" name="inputPhoneNumber"></td>
+        </tr>
+        <tr>
+            <td>Nhập địa chỉ</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="inputAddress"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center"><input onclick="submit()" style="width: 170px!important; border: none; font-size: 18px; color:white; background: royalblue" type="submit" name="submit" value="TẠO TÀI KHOẢN"></td>
+        </tr>
+       <tr>
+            <td style="text-align: center"><input style="width: 170px!important; border:none;font-size: 18px; background-color: dimgray; color:white;" type="reset" name="reset" value="XÓA"></td>
+        </tr>
+
+    </table>
+</form>
+<script src="check.js"></script>
+</body>
+</html>
