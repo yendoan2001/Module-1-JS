@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/conditional_sentences/Baitap/calculator2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/loop_for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp/loop_for2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/Baitap/Date_in_month.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/Baitap/Date_in_month.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/Baitap/calculator2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/Baitap/calculator2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/Baitap/weight_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/Baitap/weight_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/leap_year/leap_year.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/leap_year/leap_year.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/leap_year/leap_year.js" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/leap_year/leap_year.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_if_else/practice_if_else.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_if_else/practice_if_else.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_if_else/practice_if_else.js" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_if_else/practice_if_else.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_if_else_if/practice_if_else_if.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_if_else_if/practice_if_else_if.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_if_else_if/practice_if_else_if.js" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_if_else_if/practice_if_else_if.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_switch_case/practice_switch_case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case.js" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_switch_case/practice_switch_case.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_switch_case/practice_switch_case2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case2.js" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_switch_case/practice_switch_case2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_switch_case/practice_switch_case3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_ternary_operator/lesson1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_ternary_operator/lesson1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conditional_sentences/practice_ternary_operator/lesson2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/practice_ternary_operator/lesson2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +42,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BasicJs/caculator/calculator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/use_operator/use_operator.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Câu điều kiện/practice_switch_case/practice_switch_case.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case2.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Câu điều kiện/practice_switch_case/practice_switch_case2.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operator2.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/conditional_sentences/leap_year/leap_year.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Câu điều kiện/leap_year/leap_year.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Variable_operator/variable_operation3.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/conditional_sentences/practice_if_else/practice_if_else.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Câu điều kiện/practice_if_else/practice_if_else.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/currencychange/currencychange.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Declar_use_variable/declar_variable.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/conditional_sentences/practice_if_else_if/practice_if_else_if.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Câu điều kiện/practice_if_else_if/practice_if_else_if.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2DnEs37Huzx5v0iG3bILVPufI8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -80,7 +97,7 @@
       <workItem from="1662477630759" duration="589000" />
       <workItem from="1662478247208" duration="571000" />
       <workItem from="1662485415235" duration="18602000" />
-      <workItem from="1662599435743" duration="3044000" />
+      <workItem from="1662599435743" duration="8368000" />
     </task>
     <servers />
   </component>
@@ -103,17 +120,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/conditional_sentences/practice_if_else_if/practice_if_else_if.js</url>
+          <url>file://$PROJECT_DIR$/Câu điều kiện/practice_if_else_if/practice_if_else_if.js</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case2.js</url>
+          <url>file://$PROJECT_DIR$/Câu điều kiện/practice_switch_case/practice_switch_case2.js</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/conditional_sentences/practice_ternary_operator/lesson2.html</url>
+          <url>file://$PROJECT_DIR$/Câu điều kiện/practice_ternary_operator/lesson2.html</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
