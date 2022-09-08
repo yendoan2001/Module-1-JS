@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            border: 10px solid black;
+            text-align: center;
+
+        }
+        tr, td {
+            padding: 30px;
+        }
+button {
+padding: 20px 25px;
+    border-radius: 3px;
+    font-size: 30px;
+}
+    </style>
+    <script src="../../BasicJs/caculator/calculator.js"></script>
+</head>
+<body>
+<form action="" method="post">
+    <table>
+            <tr>
+                <td colspan="4"><input id="input_number" style="width: 450px;height: 50px;border-width: 5px; font-size: 20px" type="text" name="input_number" size="50px"></td>
+            </tr>
+            <tr>
+                <td><button id="1" type="button" onclick="count('1')" value="1">1</button></td>
+                <td><button id="2" type="button" onclick="count('2')">2</button></td>
+                <td><button type="button" onclick="count('3')">3</button></td>
+                <td><button type="button" onclick="count('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="count('4')">4</button></td>
+                <td><button type="button" onclick="count('5')">5</button></td>
+                <td><button type="button" onclick="count('6')">6</button></td>
+                <td><button type="button" onclick="count('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="count('7')">7</button></td>
+                <td><button type="button" onclick="count('8')">8</button></td>
+                <td><button type="button" onclick="count('9')">9</button></td>
+                <td><button type="button" onclick="count('*')">X</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="reset('C')">C</button></td>
+                <td><button type="button" onclick="count('0')">0</button></td>
+                <td><button type="button" onclick="calc()">=</button></td>
+                <td><button type="button" onclick="count('/')">/</button></td>
+            </tr>
+        </table>
+</form>
+<script>
+function count(operator){
+    document.getElementById("input_number").value += operator
+}
+function calc() {
+    let res = document.getElementById("input_number").value
+    document.getElementById("input_number").value = eval(res)
+}
+function reset() {
+    document.getElementById("input_number").value=''
+}
+</script>
+</body>
+</html>

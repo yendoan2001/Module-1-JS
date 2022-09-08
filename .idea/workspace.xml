@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/conditional_sentences/Baitap/Date_in_month.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conditional_sentences/Baitap/calculator2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +79,8 @@
       <workItem from="1662449882736" duration="14237000" />
       <workItem from="1662477630759" duration="589000" />
       <workItem from="1662478247208" duration="571000" />
-      <workItem from="1662485415235" duration="14404000" />
+      <workItem from="1662485415235" duration="18602000" />
+      <workItem from="1662599435743" duration="3044000" />
     </task>
     <servers />
   </component>
@@ -104,20 +105,22 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/conditional_sentences/practice_if_else_if/practice_if_else_if.js</url>
           <line>7</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/conditional_sentences/practice_switch_case/practice_switch_case2.js</url>
           <line>7</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/conditional_sentences/practice_ternary_operator/lesson2.html</url>
           <line>11</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/BasicJs/caculator/calculator.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
