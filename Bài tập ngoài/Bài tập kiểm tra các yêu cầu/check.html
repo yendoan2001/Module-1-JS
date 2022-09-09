@@ -10,68 +10,101 @@
             padding: 20px;
             width: 100px;
         }
-        tr,td {
+
+        tr, td {
             font-size: 30px;
             color: dimgray;
         }
+
         input {
             width: 500px;
             height: 30px;
             font-size: 15px;
         }
+
+        .red-border {
+            border: 1px solid red;
+        }
     </style>
 </head>
 <body>
-<form id="form" action="#" method="post" onsubmit="returncheck()">
+<div>
     <table>
         <tr>
-            <td style="text-align: center;background: cornflowerblue; color: white; padding: 10px">Đăng ký tài khoản</td>
+            <td style="text-align: center;background: cornflowerblue; color: white; padding: 10px">Đăng ký tài khoản
+            </td>
         </tr>
         <tr>
             <td>Tên</td>
         </tr>
         <tr>
-            <td><input type="text" name="inputName"></td>
+            <td><input name="inputName" type="text"></td>
         </tr>
         <tr>
             <td>Email</td>
         </tr>
         <tr>
-            <td><input type="email" name="inputEmail"></td>
+            <td><input id="email" name="email" type="email"></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="email-error"></div>
+            </td>
         </tr>
         <tr>
             <td>Mật khẩu</td>
         </tr>
         <tr>
-            <td><input id="inputPassword" type="password" name="inputPassword"></td>
+            <td><input id="inputPassword" name="inputPassword" type="password"></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="password-error"></div>
+            </td>
         </tr>
         <tr>
             <td>Xác nhận mật khẩu</td>
         </tr>
         <tr>
-            <td><input id="checkPassword" type="password" name="checkPassword"></td>
+            <td><input id="checkPassword" name="checkPassword" type="password"></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="password-check-error"></div>
+            </td>
         </tr>
         <tr>
             <td>Số điện thoại</td>
         </tr>
         <tr>
-            <td><input id="inputPhoneNumber" type="tel" name="inputPhoneNumber"></td>
+            <td><input id="inputPhoneNumber" name="inputPhoneNumber" type="number"></td>
+        </tr>
+        <tr>
+            <td>
+                <div id="inputPhoneNumberError"></div>
+            </td>
         </tr>
         <tr>
             <td>Nhập địa chỉ</td>
         </tr>
         <tr>
-            <td><input type="text" name="inputAddress"></td>
+            <td><input name="inputAddress" type="text"></td>
         </tr>
         <tr>
-            <td style="text-align: center"><input onclick="submit()" style="width: 170px!important; border: none; font-size: 18px; color:white; background: royalblue" type="submit" name="submit" value="TẠO TÀI KHOẢN"></td>
+            <td style="text-align: center"><input name="submit" onclick="onSubmit()"
+                                                  style="width: 170px!important; border: none; font-size: 18px; color:white; background: royalblue"
+                                                  type="button"
+                                                  value="TẠO TÀI KHOẢN"></td>
         </tr>
-       <tr>
-            <td style="text-align: center"><input style="width: 170px!important; border:none;font-size: 18px; background-color: dimgray; color:white;" type="reset" name="reset" value="XÓA"></td>
+        <tr>
+            <td style="text-align: center"><input
+                    name="reset"
+                    style="width: 170px!important; border:none;font-size: 18px; background-color: dimgray; color:white;"
+                    type="reset" value="XÓA"></td>
         </tr>
 
     </table>
-</form>
+</div>
 <script src="check.js"></script>
 </body>
 </html>

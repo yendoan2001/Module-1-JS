@@ -1,24 +1,68 @@
-function returncheck() {
-    let inputpassword = document.getElementById("inputPassword").value;
-    if (inputpassword ===""){
-        alert("Hãy nhập mật khẩu")
-    } else if (inputpassword.length <6){
-        alert("Mật khẩu quá ngắn")
-    } else if (inputpassword.length <=20){
-        alert("Mật khẩu đủ dài")
-    } else alert("mật khẩu quá dài")
+const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
 
-    let checkpassword = document.getElementById("inputPassword").value;
-    if(checkpassword === inputpassword){
-        alert("Submit")
-    }else alert("Nhập lại password")
+let passwordInput = document.getElementById("inputPassword");
+let passwordError = document.getElementById("password-error");
 
-    let phonenumber = document.getElementById("inputPhoneNumber").value;
-    if (phonenumber ===""){
-        alert("Hãy nhập số điện thoại")
-    } else if (phonenumber.length <10){
-        alert("SĐT không chính xác")
-    } else if (phonenumber.length <=11){
-        alert("SĐT chính xác")
-    } else alert("SĐT không chính xác")
+let emailInput = document.getElementById("email");
+let emailError = document.getElementById("email-error");
+
+let passwordCheck = document.getElementById("checkPassword");
+let passwordCheckError = document.getElementById("password-check-error");
+
+let phoneNumberInput = document.getElementById("inputPhoneNumber");
+let phoneNumberInputError = document.getElementById("inputPhoneNumberError");
+
+function onSubmit() {
+    validateEmail()
+    validatePassword()
+    ValidateCheckPassword()
+    ValidatePhoneNumber()
+}
+
+function validateEmail() {
+    emailInput.classList.add("red-border");
+    let email = emailInput.value
+    if (!email) {
+        emailError.innerHTML = "Email can not be empty"
+    } else if (!emailRegex.test(email)) {
+        emailError.innerHTML = "Email format is not valid"
+    } else {
+        emailError.innerHTML = ""
+        emailInput.classList.remove("red-border");
+    }
+}
+
+function validatePassword() {
+    passwordInput.classList.add("red-border");
+    let password = passwordInput.value
+    if (!password) passwordError.innerHTML = "Password can not be empty"
+    else if (password.length < 6 || password.length > 20) {
+        passwordError.innerHTML = "Password length should be from 6 to 20"
+    } else {
+        passwordError.innerHTML = ""
+        passwordInput.classList.remove("red-border");
+    }
+}
+
+function ValidateCheckPassword(){
+    passwordCheck.classList.add("red-border");
+    let check = passwordCheck.value
+    let password = passwordInput.value
+    if (check != password || check == "") passwordCheckError.innerHTML= "Please input password confirm again"
+    else {
+        passwordCheckError.innerHTML=""
+        passwordCheck.classList.remove("red-border");
+    }
+}
+function ValidatePhoneNumber() {
+    phoneNumberInput.classList.add("red-border");
+    let phoneNumber = phoneNumberInput.value;
+    if (!phoneNumber) {
+        phoneNumberInputError.innerHTML= "Please input your phone number"
+    } else if (phoneNumber.length < 10 || phoneNumber.length > 11) {
+        phoneNumberInputError.innerHTML="Your phone number is not valid"
+    } else {
+        phoneNumberInputError.innerHTML=""
+        phoneNumberInput.classList.remove("red-border");
+    }
 }
