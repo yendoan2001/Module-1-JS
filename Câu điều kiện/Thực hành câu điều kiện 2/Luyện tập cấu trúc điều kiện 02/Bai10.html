@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let amount = +prompt("Hãy nhập số điện đã dùng") ;
+    let a=1484;
+    let b=1533;
+    let c=1786;
+    let d=2242;
+    if (amount>=0){
+        if(amount<=50){
+            electricFee = amount*a;
+            alert("Giá điện của bạn là: " + electricFee)
+        } else if(amount<=100){
+            electricFee = 50*a+(amount-50)*b;
+            alert("Giá điện của bạn là: " + electricFee)
+        } else if(amount<=200) {
+            electricFee = 50*a+50*b+(amount-50)*c ;
+            alert("Giá điện của bạn là: " + electricFee)
+        } else if(amount<=200) {
+            electricFee = 50*a+50*b+50*c+(amount-50)*d;
+            alert("Giá điện của bạn là: " + electricFee)
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let incomings = +prompt("Nhập doanh số bán hàng");
+  let tip = 0;
+  if(incomings>=15) {
+      tip = incomings * 0.05
+      alert("Tiền hoa hồng là: "+ tip )
+  } else if(incomings>=10){
+      tip = incomings * 0.04
+      alert("Tiền hoa hồng là: "+ tip )
+  } else if(incomings>=5){
+      tip = incomings * 0.03
+      alert("Tiền hoa hồng là: "+ tip )
+  } else alert("Không được nhận hoa hồng")
+
+</script>
+</body>
+</html>
