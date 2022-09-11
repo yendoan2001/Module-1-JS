@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 01/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 01/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 01/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 01/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 01/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 01/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai12.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 01/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 01/Bai3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +84,9 @@
       <workItem from="1662478247208" duration="571000" />
       <workItem from="1662485415235" duration="18602000" />
       <workItem from="1662599435743" duration="13702000" />
-      <workItem from="1662643926941" duration="30900000" />
+      <workItem from="1662643926941" duration="30947000" />
+      <workItem from="1662789674526" duration="4933000" />
+      <workItem from="1662880854752" duration="337000" />
     </task>
     <servers />
   </component>

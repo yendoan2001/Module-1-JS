@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const tax1 = 0.05;
+    const tax2 = 0.1;
+    const tax3 = 0.15;
+    const tax4 = 0.2;
+    const tax5 = 0.25;
+    const tax6 = 0.3;
+    const tax7 = 0.35;
+
+    let income = +prompt("Nhập số thu nhập của bạn"); // 12tr trên HD
+    let reduction = +prompt("Nhập số tiền bạn được giảm trừ"); // 11tr cho bản thân. 3,4tr đồng/ 1 người phụ thuộc
+    let TNTT = income - reduction; // 12 -11 = 1tr
+
+    if (TNTT <= 5) {
+        incomeTax = TNTT * tax1;
+    } else if (TNTT <= 10) {
+        incomeTax = 0.25 + (TNTT - 5) * tax2;
+    } else if (TNTT <= 15) {
+        incomeTax = 0.75 + (TNTT - 10) * tax3;
+    } else if (TNTT <= 20) {
+        incomeTax = 1.95 + (TNTT - 15) * tax4;
+    } else if (TNTT <= 25) {
+        incomeTax = 4.75 + (TNTT - 25) * tax5;
+    } else if (TNTT <= 30) {
+        incomeTax = 9.75 + (TNTT - 30) * tax6;
+    } else if (TNTT <= 35) {
+        incomeTax = 18.15 + (TNTT - 35) * tax7;
+    }
+
+    alert('Thuế thu nhập là: '+ incomeTax);
+</script>
+</body>
+</html>
