@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let amount = +prompt("Nhập số tiền ban đầu khi gửi ngân hàng");
+        let interestRate = +prompt("Nhập lãi suất hàng tháng");
+        let month = +prompt("Nhập số tháng gửi ngân hàng");
+        let interest = amount * Math.pow((1 + interestRate), month);
+
+        alert('Lãi là: ' +interest);
+</script>
+</body>
+</html>

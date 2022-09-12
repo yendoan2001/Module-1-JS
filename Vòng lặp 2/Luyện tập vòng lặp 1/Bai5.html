@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const number = +prompt('Enter the number of terms: ');
+    let num1 = 1, num2 = 1, result, sum=0;
+    for (let i = 1; i <= number; i++) {
+        console.log(num1);
+        result = num1 + num2;
+        num1 = num2;
+        num2 = result;
+        sum = sum + num1;
+    }
+    alert(sum)
+
+
+
+</script>
+</body>
+</html>
