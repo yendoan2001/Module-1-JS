@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/loop_do_while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp/nested_loop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/multiplication_table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai12.html" beforeDir="false" afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Luyện tập cấu trúc điều kiện 02/Bai12.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BasicJs/Sử dụng toán tử/use_operator.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Bài tập ngoài/Bài tập kiểm tra các yêu cầu/check.js" root0="FORCE_HIGHLIGHTING" />
@@ -38,6 +45,9 @@
     <setting file="file://$PROJECT_DIR$/Câu điều kiện/Thực hành switch-case/practice_switch_case.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Câu điều kiện/Thực hành switch-case/practice_switch_case2.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BasicJs/Khai báo và sử dụng biến/declar_variable.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="2DnEs37Huzx5v0iG3bILVPufI8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -86,7 +96,7 @@
       <workItem from="1662599435743" duration="13702000" />
       <workItem from="1662643926941" duration="30947000" />
       <workItem from="1662789674526" duration="4933000" />
-      <workItem from="1662880854752" duration="3140000" />
+      <workItem from="1662880854752" duration="6240000" />
     </task>
     <servers />
   </component>
