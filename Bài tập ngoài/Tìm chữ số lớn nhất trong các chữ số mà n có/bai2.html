@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let input = +prompt('Nhập số nguyên dương bất kì');
+    let isMax=0;
+    let number;
+    while(input>0){
+         number = input % 10;
+        if (number>=isMax){
+            isMax=number;
+        }
+        input = Math.floor(input / 10);
+
+    } alert(isMax);
+
+</script>
+</body>
+</html>

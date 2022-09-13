@@ -7,6 +7,13 @@
 <body>
 <script>
     let input = +prompt("Nhập số nguyên dương bất kì");
+    let sum = 0;
+
+    while (input > 0) {
+        let number = input % 10;
+        sum += number;
+        input = Math.floor(input / 10);
+    } alert(sum);
 
 </script>
 </body>

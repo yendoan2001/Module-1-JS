@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bài tập ngoài/Tính tổng các chữ số có trong n/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 2/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 2/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 2/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 2/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài tập ngoài/Khi click vào button thì in các số từ 1 tới giá trị của ô input./Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài tập ngoài/Tìm chữ số lớn nhất trong các chữ số mà n có/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài tập ngoài/Vẽ hình chữ nhật đặc dấu sao (*) có kích thước đã nhập./Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài tập ngoài/Vẽ hình tam giác dấu */Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/Do you love me?/gamelove.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/prime.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vòng lặp 2/prime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài tập ngoài/Tính tổng các chữ số có trong n/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài tập ngoài/Tính tổng các chữ số có trong n/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vòng lặp 2/Luyện tập vòng lặp 1/Bai8.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +98,9 @@
       <workItem from="1662599435743" duration="13702000" />
       <workItem from="1662643926941" duration="30947000" />
       <workItem from="1662789674526" duration="4933000" />
-      <workItem from="1662880854752" duration="30690000" />
+      <workItem from="1662880854752" duration="34534000" />
+      <workItem from="1663030621561" duration="6187000" />
+      <workItem from="1663047016886" duration="157000" />
     </task>
     <servers />
   </component>
