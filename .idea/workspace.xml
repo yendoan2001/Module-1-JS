@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập mảng 01/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập mảng 01/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập mảng 01/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập mảng 01/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập mảng 01/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập mảng 01/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập mảng 01/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập mảng 01/Bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập với mảng 02/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập với mảng 02/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập với mảng 02/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập với mảng 02/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập với mảng 02/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Luyện tập với mảng 02/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Sử dụng các hàm có sẵn của mảng/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Sử dụng các hàm có sẵn của mảng/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Sử dụng các hàm có sẵn của mảng/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Tic tac toe/tictactoe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Từ điển/dictionary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Bàn cờ caro đơn giản/caro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Tìm giá trị lớn nhất trong mảng/array4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng/Tìm giá trị trong mảng/array3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Chuyển đổi nhiệt độ/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Thực hành tạo và gọi hàm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm/Tìm giá trị nhỏ nhất của mảng/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +114,7 @@
       <workItem from="1663030621561" duration="6187000" />
       <workItem from="1663047016886" duration="5352000" />
       <workItem from="1663117911055" duration="12453000" />
-      <workItem from="1663145667565" duration="8909000" />
+      <workItem from="1663145667565" duration="13327000" />
     </task>
     <servers />
   </component>
