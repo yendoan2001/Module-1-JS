@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="input" type="text" name="input">
+<button type="button" onclick="display()">Search</button>
+<p id="show"></p>
+<script>
+    function display() {
+        let arrE=['apple','banana','lemon','watermelon','orange','starfruit'];
+        let arrV=['Quả táo','Quả chuối','Quả chanh','Quả dưa hấu','Quả cam','Quả khế'];
+        let valueInput=document.getElementById('input');
+        for (let i = 0; i < arrE.length ; i++) {
+            if(valueInput.value === arrE[i]){
+                document.getElementById('show').innerHTML=arrV[i];
+            }
+        }
+    }
+
+
+</script>
+</body>
+</html>

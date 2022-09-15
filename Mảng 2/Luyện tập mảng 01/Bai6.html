@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let int = [1,-45,23,-66,-3,67,8,954,-54,2];
+    let V=+prompt('Nhập 1 số bất kì');
+    let i;
+    for (i = 0; i <10 ; i++) {
+        if(V===int[i]){
+            alert('V is in the array');
+            break;
+        } else if (i === int.length-1) {
+            alert('V is not in the array')
+        }
+    }
+</script>
+</body>
+</html>
