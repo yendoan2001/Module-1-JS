@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hàm/Chuyển đổi nhiệt độ/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Thực hành tạo và gọi hàm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm/Tìm giá trị nhỏ nhất của mảng/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/good - fast -cheap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mảng 2/Ứng dụng vui Faking Textarea on Typing /index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +126,8 @@
       <workItem from="1663030621561" duration="6187000" />
       <workItem from="1663047016886" duration="5352000" />
       <workItem from="1663117911055" duration="12453000" />
-      <workItem from="1663145667565" duration="13327000" />
+      <workItem from="1663145667565" duration="18217000" />
+      <workItem from="1663292125850" duration="5124000" />
     </task>
     <servers />
   </component>

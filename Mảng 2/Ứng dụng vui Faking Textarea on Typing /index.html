@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="text-align: center">
+<h1>Type anything slowly</h1>
+<textarea id="text" style="width: 400px;height: 100px" onkeydown="vietTextarea()"></textarea>
+<script>
+  let arr = ['B', 'a', 'n',' ','đ', 'a', 'n', 'g',' ', 'v', 'i', 'ế', 't',' ', 'g', 'ì', ' ','đ', 'ấ', 'y']
+  let str = '';
+
+  function vietTextarea() {
+    let t = document.getElementById('text').value;
+    let i = t.length;
+    if (i > 0) {
+      for (let j = 0; j < i; j++) {
+        str += arr[j]
+        if (j == 20) {
+          str = '';
+          document.getElementById('text').value = '';
+        }
+      }
+    }
+    document.getElementById('text').value = str;
+    str=''
+  }
+
+</script>
+</body>
+</html>

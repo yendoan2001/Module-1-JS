@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let input = +prompt("Nhập độ dài bán kính hình tròn");
+    const pi = 3.14;
+    function dientich(){
+        let area = input * input * pi;
+        return document.write('Diện tích hình tròn là ' + area+'<br>');
+    }
+    dientich();
+    function chuvi(){
+        let circumference = 2 * input * pi;
+        return document.write('Chu vi hình tròn là: '+circumference);
+    }
+    chuvi();
+</script>
+</body>
+</html>

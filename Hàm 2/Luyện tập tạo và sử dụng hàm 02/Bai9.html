@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[2,'f','g','y','e','d','h','u',5,'r','f','e'];
+    let kitu = 'e';
+    let count = 0;
+    function check(){
+        for(let i = 0; i <arr.length ;i++) {
+            if(kitu === arr[i]){
+                count +=1;
+            }
+        }
+        if (count == 0) {
+            return -1;
+        } else {
+            return count;
+        }
+    }
+    check(arr,'e');
+    console.log(count);
+
+</script>
+</body>
+</html>
