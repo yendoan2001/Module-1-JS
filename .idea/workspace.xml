@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Câu điều kiện/Thực hành câu điều kiện 2/good - fast -cheap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/Bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 02/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mảng 2/Ứng dụng vui Faking Textarea on Typing /index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Chuyển đổi giữa feet và meters/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Hàm kiểm tra số nguyên tố/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Kiểm tra từ đối xứng/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hàm 2/Ứng dụng quản lý sản phẩm sử dụng hàm/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Funny circles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp Date/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp Hình Tròn/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp mô tả hình chữ nhật/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +122,8 @@
       <workItem from="1663047016886" duration="5352000" />
       <workItem from="1663117911055" duration="12453000" />
       <workItem from="1663145667565" duration="18217000" />
-      <workItem from="1663292125850" duration="5124000" />
+      <workItem from="1663292125850" duration="34853000" />
+      <workItem from="1663635738187" duration="5840000" />
     </task>
     <servers />
   </component>
