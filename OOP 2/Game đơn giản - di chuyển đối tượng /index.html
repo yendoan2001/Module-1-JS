@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Driving Game</title>
+</head>
+<body>
+<img height="100" id="doraemon"
+     src="../../secondsample/img1/dora.png"
+     style="position:absolute"/>
+<script>
+    class Hero {
+        img;
+        top;
+        left;
+        size;
+
+        constructor(img, top, left, size) {
+            this.img = img;
+            this.top = top;
+            this.left = left;
+            this.size = size;
+
+        }
+
+        updateHeroElement() {
+            this.img.style.top = parseInt(this.top) + "px";
+            this.img.style.left = parseInt(this.left) + "px";
+        }
+
+        upArrowPressed() {
+            this.top -= 5;
+            this.updateHeroElement()
+        }
+
+        downArrowPressed() {
+            this.top += 5;
+            this.updateHeroElement()
+        }
+
+        leftArrowPressed() {
+            this.left -= 5;
+            this.updateHeroElement()
+        }
+
+        rightArrowPressed() {
+            this.left += 5;
+            this.updateHeroElement()
+        }
+
+        moveSelection(evt) {
+            switch (evt.keyCode) {
+                case 37:
+                    this.leftArrowPressed();
+                    break;
+                case 39:
+                    this.rightArrowPressed();
+                    break;
+                case 38:
+                    this.upArrowPressed();
+                    break;
+                case 40:
+                    this.downArrowPressed();
+                    break;
+            }
+        }
+    }
+
+    let image = document.getElementById("doraemon");
+    let hero = new Hero(image, 0, 0, 200);
+    hero.updateHeroElement()
+    window.addEventListener('keydown', hero.moveSelection.bind(hero));
+</script>
+</body>
+</html>

@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Chuyển đổi giữa feet và meters/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Hàm kiểm tra số nguyên tố/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Kiểm tra từ đối xứng/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Luyện tập tạo và sử dụng hàm 01/Bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hàm 2/Ứng dụng quản lý sản phẩm sử dụng hàm/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Funny circles/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp Date/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp Hình Tròn/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp mô tả hình chữ nhật/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP 2/Game đơn giản - di chuyển đối tượng /index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP 2/Xây dựng lớp mô phỏng sự hoạt động của đèn pin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp mô tả Temperature/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/test/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +117,9 @@
       <workItem from="1663117911055" duration="12453000" />
       <workItem from="1663145667565" duration="18217000" />
       <workItem from="1663292125850" duration="34853000" />
-      <workItem from="1663635738187" duration="5840000" />
+      <workItem from="1663635738187" duration="11471000" />
+      <workItem from="1663723197592" duration="9162000" />
+      <workItem from="1663809260931" duration="3294000" />
     </task>
     <servers />
   </component>

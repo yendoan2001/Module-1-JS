@@ -6,57 +6,74 @@
 </head>
 <body>
 <script>
-    function Post(id, content, user) {
-        this.id = id;
-        this.content = content;
-        this.user = user;
-        this.liked = 0;
-        this.comment = [];
+    // function Post(id, content, user) {
+    //     this.id = id;
+    //     this.content = content;
+    //     this.user = user;
+    //     this.liked = 0;
+    //     this.comment = [];
+    //
+    //     this.setLiked = function (like) {
+    //         if (like < 0) {
+    //             this.like = 0;
+    //         } else {
+    //             this.liked = like
+    //         }
+    //     }
+    // }
+    //
+    // function Comment(id, content, userId) {
+    //     this.id = id;
+    //     this.content = content;
+    //     this.userId = userId;
+    //     this.comment = [];
+    //     this.createdAt = new Date();
+    //     this.toString = function (){
+    //         return this.id + ":" + this.content
+    //     }
+    // }
+    //
+    // function User(id,name) {
+    //     this.id = id;
+    //     this.name = name;
+    //     this.password = "password";
+    //     this.like = function (post) {
+    //         post.liked++
+    //     }
+    //
+    //     this.comment = function (post, content){
+    //         let comment = new Comment(1, content, this.id);
+    //         post.comment.push(comment)
+    //     }
+    // }
+    //
+    // let user = new User(1,'abc');
+    // let user2 = new User(2,'hff');
+    //
+    // let post = new Post(1, 'AAA', user);
+    // let post2 = new Post(2, 'BBB', user);
+    // let post3 = new Post(3, 'BBB', user2);
+    //
+    // user.comment(post, "AAA");
+    //
+    // console.log(post.user)
 
-        this.setLiked = function (like) {
-            if (like < 0) {
-                this.like = 0;
-            } else {
-                this.liked = like
-            }
+    class Person{
+        name;
+        constructor(name) {
+            this.name=name;
+        }
+        greeting(){
+            alert ('Hi! I\'m ' + this.name + '.');
         }
     }
 
-    function Comment(id, content, userId) {
-        this.id = id;
-        this.content = content;
-        this.userId = userId;
-        this.comment = [];
-        this.createdAt = new Date();
-        this.toString = function (){
-            return this.id + ":" + this.content
-        }
-    }
+    let person1 = new Person('bob');
+    let person2 = new Person('James');
 
-    function User(id,name) {
-        this.id = id;
-        this.name = name;
-        this.password = "password";
-        this.like = function (post) {
-            post.liked++
-        }
+    person1.greeting();
+    person2.greeting();
 
-        this.comment = function (post, content){
-            let comment = new Comment(1, content, this.id);
-            post.comment.push(comment)
-        }
-    }
-
-    let user = new User(1,'abc');
-    let user2 = new User(2,'hff');
-
-    let post = new Post(1, 'AAA', user);
-    let post2 = new Post(2, 'BBB', user);
-    let post3 = new Post(3, 'BBB', user2);
-
-    user.comment(post, "AAA");
-
-    console.log(post.user)
 
 
 </script>

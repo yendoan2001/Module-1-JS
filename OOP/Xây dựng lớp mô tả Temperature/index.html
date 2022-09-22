@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  class Temperature{
+    C_degree;
+    constructor(C_degree) {
+      this.C_degree= C_degree;
+    }
+    exhchange_C_to_F(){
+      return 'Độ F = ' + ((9*this.C_degree)/5 + 32);
+    }
+    exchange_C_to_K(){
+      return 'Độ K= ' + (this.C_degree + 273.15);
+    }
+  }
+  let temperature = new Temperature(25);
+  alert(temperature.exchange_C_to_K());
+  alert(temperature.exhchange_C_to_F());
+
+
+
+</script>
+</body>
+</html>
