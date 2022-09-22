@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP 2/Game đơn giản - di chuyển đối tượng /index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP 2/Xây dựng lớp mô phỏng sự hoạt động của đèn pin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp mô tả Temperature/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP 2/Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP 2/Game đơn giản - di chuyển đối tượng /index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP 2/Game đơn giản - di chuyển đối tượng /index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/test/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +118,7 @@
       <workItem from="1663292125850" duration="34853000" />
       <workItem from="1663635738187" duration="11471000" />
       <workItem from="1663723197592" duration="9162000" />
-      <workItem from="1663809260931" duration="3294000" />
+      <workItem from="1663809260931" duration="10988000" />
     </task>
     <servers />
   </component>
