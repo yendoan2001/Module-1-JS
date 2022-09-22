@@ -20,11 +20,11 @@
     }
   }
   class Flashlamp{
-    setBattery(battery){
-      this.battery = battery;
+    setBattery(Battery){
+      this.battery = Battery;
     }
     getBatteryInfo(){
-      return this.battery.getEnergy();
+      return this.battery.energy;
     }
     light(){
       if(this.status){
