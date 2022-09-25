@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+ class Remote{
+     code;
+     tv;
+     constructor(code,tv) {
+         this.code = code;
+         this.tv = tv;
+     }
+     controlChannel(channel){
+         this.tv.channel = channel;
+
+     }
+     controlVolumn(volumn){
+         this.tv.volumn=volumn;
+
+     }
+ }
+
+ class TV{
+     channel;
+     volumn;
+     status;
+     constructor(channel,volumn,status) {
+         this.channel = channel;
+         this.volumn = volumn;
+         this.status = status;
+     }
+     getStatus(){
+         if (this.status){
+             console.log('TV đang bật');
+         }else console.log('TV đang tắt');
+     }
+     turnOn(){
+         return this.status=true;
+     }
+     turnOff(){
+         return this.status=false;
+     }
+     getChannel(){
+         return this.channel;
+     }
+     getVolumn(){
+         return this.volumn;
+     }
+     setChannel(new_channel){
+         this.channel=new_channel;
+     }
+     setVolumn(new_volumn){
+         this.volumn = new_volumn;
+     }
+ }
+ let Sony = new TV(12,10,true);
+ let remote = new Remote(1,Sony);
+ Sony.turnOn();
+ Sony.getStatus();
+ Sony.setChannel(7);
+ console.log(Sony.getChannel());
+
+ remote.controlChannel(3);
+ remote.controlVolumn(12);
+ console.log(Sony.getChannel());
+ console.log(Sony.getVolumn());
+</script>
+</body>
+</html>

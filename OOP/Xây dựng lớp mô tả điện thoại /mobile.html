@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  class Mobile{
+      name;
+    battery;
+    message;
+    powerOn;
+    Inbox;
+    Draft;
+    constructor(name,battery,message) {
+        this.name = name;
+      this.battery = battery;
+      this.message = message;
+      this.Draft = '';
+      this.Inbox=[];
+      this.send=[];
+      this.powerOn = false;
+    }
+    checkPowerOn(){
+        if(!this.powerOn){
+            alert('The power of your ' +this.name+' is OFF');
+            return false;
+        } return true;
+    }
+    turnOn(){
+        this.powerOn=true;
+      }
+      turnOff(){
+        this.powerOn=false;
+      }
+    getMessage(){
+      return this.message;
+    }
+    getBattery(){
+      return this.battery;
+    }
+    charge(){
+        this.battery=100;
+    }
+    type(){
+        if(!this.powerOn) return;
+        this.battery--;
+        this.Draft = prompt("Input messenger you want to send");
+    }
+    getDraft(){
+        if (!this.checkPowerOn()) return;
+        this.battery--;
+        return this.Draft;
+    }
+
+    receive(message){
+        if (!this.checkPowerOn()) return;
+        this.battery--;
+        this.Inbox.push(message);
+    }
+    send(phone){
+        if (!this.checkPowerOn) return;
+        this.battery--;
+        let message = this.Draft;
+        this.Draft = "";
+        phone.receive(message);
+        this.send.push(message);
+
+    }
+  }
+  let mobile1 = new Mobile('Iphone',40,'I love you');
+  let mobile2 = new Mobile('Samsung',23,'I love U too');
+
+  mobile1.turnOn();
+  mobile2.turnOn();
+  mobile1.type();
+mobile1.send(mobile2)
+
+
+  mobile1.turnOff();
+  mobile2.turnOff();
+
+
+
+
+
+</script>
+</body>
+</html>
