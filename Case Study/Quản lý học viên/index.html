@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        div{
+            text-align: center;
+            background: dodgerblue;
+            color: yellow;
+            font-size: 30px;
+        }
+        table{
+           padding: 5px;
+        }
+        tr,td{
+            border: 1px solid dodgerblue;
+            padding: 6px 40px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        input {
+            margin-left: 40px;
+            margin-right: 40px;
+            padding: 5px 20px;
+
+        }
+        #showTable{
+            width: 100%;
+            background-color: white;
+            color: black;
+        }
+        #table2{
+            width: 600px;
+        }
+    </style>
+</head>
+<body>
+<img style="width: 100%" src="../../secondsample/img1/img1.jpeg" alt="">
+<div><h1>Quản lý học viên</h1></div>
+<table>
+    <tr>
+        <td colspan="2" style="color: darkred; background: royalblue; font-size: 30px"><b>Thông tin học viên</b></td>
+    </tr>
+    <tr>
+        <td><b>ID</b></td>
+        <td><input id="id" type="number"></td>
+    </tr>
+    <tr>
+        <td><b>Họ tên</b></td>
+        <td><input id="name" type="text"></td>
+    </tr>
+    <tr>
+        <td><b>Ngày sinh</b></td>
+        <td><input id="birthday" type="text"></td>
+    </tr>
+    <tr>
+        <td><b>Giới tính</b></td>
+        <td><input id="gender" type="text"></td>
+    </tr>
+    <tr>
+        <td><b>Lớp</b></td>
+        <td><input id="class" type="text"></td>
+    </tr>
+    <tr>
+        <td><b>Ảnh</b></td>
+        <td><input id="img" type="text"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><button type="button" style="font-size: 20px" onclick="addStudent()">Add</button>
+            <button type="button" style="font-size: 20px" onclick="saveData()">Save</button>
+        </td>
+    </tr>
+</table>
+<div id="showTable"></div>
+<script>
+    let a;
+    let dshocvien = [];
+    function showTable(){
+        let sout ='<table id="table2" border="1" width="300" cellpadding="5">';
+sout += '<tr>' + '<th colspan="7">' +'Danh sách học viên' +'</th>'+'</tr>'
+sout += '<tr>' + '<th>'+'ID'+'</th>' +
+                 '<th>'+'Họ tên'+'</th>' +
+                 '<th>'+'Ngày sinh'+'</th>' +
+                 '<th>'+'Giới tính'+'</th>' +
+                 '<th>'+'Lớp'+'</th>' +
+                 '<th>'+'Ảnh'+'</th>' +
+                 '<th>'+'Tùy chỉnh'+'</th>' + '</tr>'
+        for(let i=0;i<dshocvien.length;i++){
+            sout += '<tr>'
+            for(var j=0;j<dshocvien[i].length-1;j++){
+                sout += '<td>' + dshocvien[i][j] + '</td>'
+            }
+            sout +='<td>'+'<img style="width: 100px" src="'+dshocvien[i][j]+'">'+'</td>'
+            sout += '<td>' + '<button type="button" onclick="delete1('+i+')">' + 'Delete' +'</button>'+'<button type="button" onclick="edit('+i+')">'+'Edit'+'</button>'
+        }
+
+sout +='</table>'
+        document.getElementById('showTable').innerHTML=sout;
+    }
+showTable();
+    function addStudent(){
+        let id1 = document.getElementById('id').value;
+        let name1 = document.getElementById('name').value;
+        let birthday1 = document.getElementById('birthday').value;
+        let gender1 = document.getElementById('gender').value;
+        let class1 = document.getElementById('class').value;
+        let img1 = document.getElementById('img').value;
+        dshocvien.push([id1,name1,birthday1,gender1,class1,img1])
+        showTable();
+    }
+
+    function delete1(position){
+        dshocvien.splice(position,1);
+        showTable();
+    }
+    function edit(index){
+        for(let j=0;j<dshocvien[index].length;j++){
+            document.getElementsByTagName('input')[j].value=dshocvien[index][j];
+
+        }
+        a = index;
+    }
+
+    function saveData(){
+        for(let j=0;j<dshocvien[a].length;j++){
+            dshocvien[a][j]=document.getElementsByTagName('input')[j].value;
+            showTable();
+        }
+    }
+
+
+</script>
+</body>
+</html>

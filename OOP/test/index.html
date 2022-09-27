@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-<script>
+
+
     // function Post(id, content, user) {
     //     this.id = id;
     //     this.content = content;
@@ -74,43 +74,122 @@
     // person1.greeting();
     // person2.greeting();
 
-  //   function miniMaxSum(arr) {
-  //       let sumMax = 0;
-  //       let sumMin = 0;
-  //       for(let i=0;i<arr.length-1;i++){
-  //           sumMin +=arr[i];
-  //       }
-  //       for(let j=1;j<arr.length;j++){
-  //           sumMax +=arr[j];
-  //       }
-  //       // alert(sumMin);
-  //       // alert(sumMax);
-  //       return sumMin;
-  //   }
-  //   let arr=[1,2,3,4,5];
-  //  miniMaxSum(arr);
-  // console.log(miniMaxSum(arr))
-  //   let candles = [1,3,4,4];
-  //   function birthdayCakeCandles(candles) {
-  //       let isMax=candles[0];
-  //       let count=0;
-  //       for(let i=0;i<candles.length;i++){
-  //           if(candles[i]>isMax){
-  //               isMax=candles[i];
-  //           }
-  //       } console.log(isMax);
-  //
-  //       for(let j=0;j<candles.length;j++)   {
-  //           if(candles[j]===isMax){
-  //               count+=1;
-  //           }
-  //       }
-  //   }
-  //
-  //   birthdayCakeCandles(candles);
 
-    let lastTwo = s.substring()
+        button{
+        height: 35px;
+        width: 75px;
+        background-color: #48860a;
+        font-size: 15px;
+        font-weight: bold;
+        color: #E6E6E6;
+        border-radius: 5px;
+        border: none;
+    }
+        table{
+        border-collapse: collapse;
 
+    }
+
+        td{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+        tr:nth-child(even){
+        background-color: #d9d3d3;
+    }
+    </style>
+    </head>
+    <body>
+    <p id="ds"></p>
+    <h2>Các sản phẩm: </h2>
+
+    Nhập tên sản phẩm: <input id="name1" type="text">
+        <button id="update" type="button" onclick="them()">Them</button>
+        <br><br>
+            <table>
+                <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên sản phẩm</th>
+                    <th colspan="2">Hành động</th>
+                </tr>
+                </thead>
+                <tbody id="result">
+
+
+                </tbody>
+            </table>
+    </body>
+    <script>
+
+        var matHang = [];
+        count =0;
+
+        //Ham them san pham
+        function add(){
+        count++;
+        let name = document.getElementById("name1").value;
+        var sanpham = {"name": name};
+        if (indexHientai== -1){
+        addTag(sanpham);
+    }else{
+        matHang[indexHientai] = sanpham;
+        indexHientai = -1;
+        document.getElementById("update").innerHTML = "Them";
+        displayAll();
+    }
+    }
+
+        function displayAll(){
+        document.getElementById("result").innerHTML='';
+        for (let i = 0; i<matHang.length; i++){
+        var sanpham = matHang[i];
+        document.getElementById("result").innerHTML +=  "<tr>" +
+        "<td>"+ (i+1)+"</td>" +
+        "<td>"+sanpham.name+"</td>" +
+        " <td><button onclick='edit("+i+")'>Sửa</button></td>"  +
+        " <td><button onclick='delete1("+i+")'>Xoa</button></td>"   +
+        " </tr>"
+
+    }
+    }
+        function addTag(sanpham){
+        matHang.push(sanpham);
+        console.log(matHang.length);
+        document.getElementById("result").innerHTML +=  "<tr>" +
+        "<td>"+ matHang.length+"</td>" +
+        "<td>"+sanpham.name+"</td>" +
+        " <td><button onclick='edit("+(matHang.length-1)+")'>Sửa</button></td>"  +
+        " <td><button onclick='delete1("+(matHang.length-1)+")'>Xoa</button></td>"   +
+        " </tr>"
+    }
+        //Ham sua san pham
+        indexHientai = -1;
+        function edit(index) {
+        indexHientai = index;
+        var sanpham = matHang[index];
+        document.getElementById("name1").value = sanpham.name;
+        document.getElementById("update").innerHTML = "Cap nhat";
+
+    }
+        function delete1(index) {
+        matHang.splice(index,1);
+        hienthi();
+
+    }
+
+        function hienthi(){
+        document.getElementById("result").innerHTML=''
+            for (let i=0; i<matHang.length; i++){
+        document.getElementById("result").innerHTML +=  "<tr>" +
+        "<td>"+ (i)+"</td>" +
+        "<td>"+matHang[i].name+"</td>" +
+        " <td><button onclick='edit("+(matHang.length-1)+")'>Sửa</button></td>"  +
+        " <td><button onclick='delete1("+(matHang[i]-1)+")'>Xoa</button></td>"   +
+        " </tr>"
+    }
+    }
 </script>
-</body>
+
 </html>
+

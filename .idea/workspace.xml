@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OOP 2/Remote để điều khiển Tivi/remote.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/Xây dựng lớp mô tả điện thoại /mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/Quản lý học viên/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Case Study/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OOP/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/test/index.html" afterDir="false" />
     </list>
@@ -121,7 +121,7 @@
       <workItem from="1663809260931" duration="19314000" />
       <workItem from="1663846413028" duration="8607000" />
       <workItem from="1663895208578" duration="5719000" />
-      <workItem from="1664121310127" duration="3264000" />
+      <workItem from="1664121310127" duration="22933000" />
     </task>
     <servers />
   </component>
