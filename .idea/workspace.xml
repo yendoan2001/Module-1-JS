@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Case Study/Quản lý học viên/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Case Study/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/test/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="fe9275a3-39a1-48f0-970b-635c41409da3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,19 +28,19 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/BasicJs/Sử dụng toán tử/use_operator.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Bài tập ngoài/Bài tập kiểm tra các yêu cầu/check.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicJs/Biến và toán tử/variable_operator.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicJs/Biến và toán tử/variable_operator2.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Câu điều kiện/Năm nhuận/leap_year.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicJs/Biến và toán tử/variable_operation3.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Câu điều kiện/Thực hành if-else/practice_if_else.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicJs/Quy đổi tiền tệ/currencychange.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Câu điều kiện/Thực hành if-else-if/practice_if_else_if.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicJs/Tạo máy tính/calculator.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Câu điều kiện/Thực hành switch-case/practice_switch_case.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Câu điều kiện/Thực hành switch-case/practice_switch_case2.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BasicJs/Khai báo và sử dụng biến/declar_variable.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/BasicJs/Sử dụng toán tử/use_operator.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/Bài tập ngoài/Bài tập kiểm tra các yêu cầu/check.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/BasicJs/Biến và toán tử/variable_operator.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/BasicJs/Biến và toán tử/variable_operator2.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/Câu điều kiện/Năm nhuận/leap_year.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/BasicJs/Biến và toán tử/variable_operation3.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/Câu điều kiện/Thực hành if-else/practice_if_else.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/BasicJs/Quy đổi tiền tệ/currencychange.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/Câu điều kiện/Thực hành if-else-if/practice_if_else_if.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/BasicJs/Tạo máy tính/calculator.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/Câu điều kiện/Thực hành switch-case/practice_switch_case.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/Câu điều kiện/Thực hành switch-case/practice_switch_case2.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Module 1/BasicJs/Khai báo và sử dụng biến/declar_variable.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="2DnEs37Huzx5v0iG3bILVPufI8l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -121,7 +116,7 @@
       <workItem from="1663809260931" duration="19314000" />
       <workItem from="1663846413028" duration="8607000" />
       <workItem from="1663895208578" duration="5719000" />
-      <workItem from="1664121310127" duration="22933000" />
+      <workItem from="1664121310127" duration="24199000" />
     </task>
     <servers />
   </component>
@@ -144,22 +139,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Câu điều kiện/Thực hành if-else-if/practice_if_else_if.js</url>
+          <url>file://$PROJECT_DIR$/../Module 1/Câu điều kiện/Thực hành if-else-if/practice_if_else_if.js</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Câu điều kiện/Thực hành switch-case/practice_switch_case2.js</url>
+          <url>file://$PROJECT_DIR$/../Module 1/Câu điều kiện/Thực hành switch-case/practice_switch_case2.js</url>
           <line>7</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/Câu điều kiện/Thực hành toán tử/lesson2.html</url>
+          <url>file://$PROJECT_DIR$/../Module 1/Câu điều kiện/Thực hành toán tử/lesson2.html</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/BasicJs/Tạo máy tính/calculator.js</url>
+          <url>file://$PROJECT_DIR$/../Module 1/BasicJs/Tạo máy tính/calculator.js</url>
           <line>6</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
